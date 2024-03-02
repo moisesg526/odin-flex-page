@@ -1,0 +1,51 @@
+header {
+  background-color: #1f2937;
+}
+#logo,
+h1 {
+  color: #f9faf8;
+}
+
+#logo {
+  font-size: 24px;
+}
+
+ul li {
+  list-style: none;
+}
+
+p, li {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+}
+
+h3 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.content > p {
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote > p {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
