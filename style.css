@@ -1,27 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 header {
   background-color: #1f2937;
 }
-#logo,
+
 h1 {
   color: #f9faf8;
 }
 
-#logo {
+.nav > .logo > p {
   font-size: 24px;
+  color: #f9faf8;
 }
 
-ul li {
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav > .links > ul {
+  display: flex;
+  gap: 1rem;
+  color: #e5e7eb;
+  font-size: 18px;
   list-style: none;
 }
 
-p, li {
-  color: #e5e7eb;
-  font-size: 18px;
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
 }
+
+.hero-left > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+ 
 
 button {
   color: #e5e7eb;
   background-color: #3882f6;
+  border: 10px;
+  border-color: #e5e7eb;
 }
 
 h3 {
@@ -30,22 +56,42 @@ h3 {
   font-weight: bolder;
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
 .content > p {
-    color: #1f2937;
+  color: #1f2937;
 }
 
 .quote {
-    background-color: #e5e7eb;
+  background-color: #e5e7eb;
 }
 
 .quote > p {
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 .footer {
-    background-color: #3882f6;
-    color: #e5e7eb;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin: 3rem;
 }
