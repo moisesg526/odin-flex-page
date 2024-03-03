@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -30,18 +30,17 @@ h1 {
 }
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .hero-left > p {
-    font-size: 18px;
-    color: #e5e7eb;
+  font-size: 18px;
+  color: #e5e7eb;
 }
- 
 
 button {
   color: #e5e7eb;
@@ -57,17 +56,31 @@ h3 {
 }
 
 .body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 70%;
+  height: 70%;
+}
+
+.body > .content > .inner-content > img {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
 }
 
 .inner-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  padding: 2rem 0 4rem;
+  width: 60%;
+  text-align: center;
 }
 
 .content > p {
