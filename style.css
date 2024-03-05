@@ -19,6 +19,7 @@ h1 {
 .nav {
   display: flex;
   justify-content: space-around;
+  padding: 2rem 0;
 }
 
 .nav > .links > ul {
@@ -33,20 +34,44 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 4rem 0;
   gap: 2rem;
+  width: 50%;
+  margin: auto;
 }
 
-.hero-left > p {
+.hero-content {
+  flex: 1;
+}
+
+.hero-content > img {
+  width: 100%; 
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-content > p {
   font-size: 18px;
   color: #e5e7eb;
+  padding: 1rem 0;
+  height: 100%;
 }
 
-button {
+.btn {
   color: #e5e7eb;
   background-color: #3882f6;
-  border: 10px;
-  border-color: #e5e7eb;
+  width: 100px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sign-up-btn {
+  border: none;
 }
 
 h3 {
@@ -71,10 +96,14 @@ h3 {
   height: 70%;
 }
 
+.body {
+  padding: 2rem 0 4rem;
+}
+
 .body > .content > .inner-content > img {
-    width: 100%;
-    border-radius: 10px;
-    height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  height: 300px;
 }
 
 .inner-content {
@@ -89,6 +118,7 @@ h3 {
 
 .quote {
   background-color: #e5e7eb;
+  padding: 10% 20%;
 }
 
 .quote > p {
@@ -98,13 +128,27 @@ h3 {
   font-style: italic;
 }
 
+.quote > .author {
+  text-align: right;
+  font-weight: bold;
+}
+
 .footer {
   background-color: #3882f6;
   color: #e5e7eb;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2rem;
   gap: 2rem;
   padding: 2rem;
-  margin: 3rem;
+  width: 60%;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.footer-btn {
+  border-color: #ffffff;
 }
