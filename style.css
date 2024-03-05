@@ -45,7 +45,7 @@ h1 {
 }
 
 .hero-content > img {
-  width: 100%; 
+  width: 100%;
 }
 
 .left {
@@ -139,10 +139,11 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  margin: auto;
   gap: 2rem;
   padding: 2rem;
   width: 60%;
+  margin-bottom: 3rem;
 }
 
 .bold {
@@ -151,4 +152,5 @@ h3 {
 
 .footer-btn {
   border-color: #ffffff;
+  border: solid 2px;
 }
